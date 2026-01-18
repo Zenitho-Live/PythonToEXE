@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="imgs/main.png" alt="PyInstaller Advanced Builder" width="700">
+  <img src="imgs/main.png" alt="PyInstaller Advanced Builder" width="500">
 </p>
 
 <p align="center">
